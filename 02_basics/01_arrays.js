@@ -28,5 +28,6 @@ console.log(myArr2);
 //splice : gives the new array in the range and modifies the original array
 console.log(myArr2);
 const arr1 = myArr2.splice(3,1,66,99,100,55);
-console.log(arr1);
+// console.log(arr1);
 console.log(myArr2);
+
