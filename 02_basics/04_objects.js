@@ -27,3 +27,5 @@ const obj3 = { ...obj1, ...obj2 }; //using spread operator
 console.log(Object.keys(tinderUser)); //datatype - Array
 console.log(Object.values(tinderUser)); //datatype - Array
 console.log(Object.entries(tinderUser)); //makes key as index and values as values
+
+console.log(tinderUser.hasOwnProperty("id"))  //gives whether has the key or not
